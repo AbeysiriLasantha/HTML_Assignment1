@@ -1,0 +1,80 @@
+.companyContainer {
+    margin: 8px;
+    border: solid black;
+    border-width: 0.2px;
+    background-color: rgb(221, 214, 214);
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+}
+
+.company { 
+    border-radius: 22px;
+    border-width: 2px;;
+    border:  grey;
+    margin: 20px;
+    padding:12 px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
+
+.bizPic {
+    width: 25%;
+    height: 40px;
+    border: 1em;
+    border-radius: 40%;
+    margin: 1em;
+    border: solid white;
+}
+
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.heading2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+#com_a:hover {
+    color: rgb(245, 237, 237);
+    background-color: rgb(66 103 178);
+}
+
+#com_b:hover {
+    color: rgb(245, 237, 237);
+    background-color: rgb(137 143 156);
+}
+
+#com_c:hover {
+    color: rgb(245, 237, 237);
+    background-color: rgb(101, 171, 77);
+}
+
+#com_d:hover {
+    color: rgb(245, 237, 237);
+    background-color: rgb(149, 66, 66);
+}
+
+.bigComPicture{
+    margin: 10px;
+    width: 200px; 
+    height: 200px; 
+    justify-content: center;
+}
+
+.background {
+    background-color:antiquewhite;
+}
+
+.compProfile {
+    display: flex; 
+}
